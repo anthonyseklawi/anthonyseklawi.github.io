@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<body>
+  <img class="center" src="projectimg/best logo.png" width="500" height="380"  class="center">
+<br>
+<h1> ABOUT ANSEFITNESS </h1>
+ <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="news.html">News</a>
+   <a href="ANSEnutrition.docx">download my free Ebook</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">Log in</a>
+  </div>
+<form action="/action_page.php">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Email newsletters include a weekly round-up of blog posts, case studies regarding your product or service,
+	upcoming company events and webinars, or even a behind-the-scenes . </p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+<div class="footer">
+<hr class="solid">
+<p> Anthony J. Seklawi (+961)71 627037 <br>
+ANSEfitness ©- All Right Reserved  </p> </div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function openfolder() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf114;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf115;";
+    }, 1000);
+}
+openfolder();
+setInterval(openfolder, 2000);
+
+</script>
+
+</body>
+</html>

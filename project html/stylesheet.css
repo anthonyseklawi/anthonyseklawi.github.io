@@ -1,0 +1,361 @@
+*{
+font-family:Courier New;}
+body{
+margin: 0px;
+background-color:white;
+border-color: black;
+border-width: 30px;
+border-style: solid;
+padding: 0px;
+ }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  animation: bannermove 2s linear infinite;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  animation-delay:0;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+#div1 {
+font-size:22px;}
+h7 a {
+text-decoration:none;}
+
+.map{
+	display: block;
+  margin-right:auto;
+  margin-left:auto;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.logo {
+	display: block;
+	margin-left: auto;
+    margin-right: auto; }
+h1 { 
+color:grey;
+font-size:55px;
+margin-top:0px;
+margin-bottom:0px;
+box-shadow: inset 0 0 10px black;
+border: 3px solid black;
+text-align: center;
+ }
+ 
+.topnav {
+	margin-top:0px;
+	background-color: white;
+	font-size:30px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+}
+.topnav a {
+	color: darkred;
+	font-size:30px;
+	margin-top:0px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;}
+p.intro{
+	color:black;
+	width:460px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;}
+.boxx {
+	animation: slide 2s infinite;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;}
+p.crt{
+color:grey;
+text-decoration: none;
+border: 3px solid black;
+border-radius: 9px;
+width:330px;
+font-size:30px;
+text-align: center;
+display: block;
+	margin-left: auto;
+    margin-right: auto;}
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.face:hover {
+  transition: transform .5s linear;
+  transform: rotate(-360deg);
+}
+.linked:hover {
+ transition: transform .5s linear;
+  transform: rotate(-360deg);
+}
+.insta:hover {
+transition: transform .5s linear;
+  transform: rotate(-360deg);
+}
+
+/*newsletter page*/
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+input[type=checkbox] {
+  margin-top: 14px;
+}
+input[type=submit] {
+  background-color: red;
+  color: white;
+  border: none;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/*certification page*/
+.home{
+	float:left;
+}
+div.back{
+	background-image:url('best logo.png');}
+p.crt0{
+	color:grey;
+	text-decoration: underline;
+	font-size:30px;
+	margin-top:40px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;}
+.crt1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:40px;}
+p.about{
+	color: black;
+	font-size:30 px;}
+h2.link {
+	color:grey;
+	text-decoration: none;
+	border: 3px solid black;
+	border-radius: 9px;
+	width:330px;
+	font-size:30px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;}
+.button {
+	color:grey;	
+	text-decoration: none; }
+	p.blk{
+	color:black;}
+
+/*Log in page*/
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  background: red;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+/* Set a style for the submit button */
+.btn {
+  background-color: red;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+/* Create three equal columns that floats next to each other */
+a:hover {
+color: #000;
+background-color: #dadada;
+}
+.row {
+display: table-row;
+} 
+.row label {
+display: table-cell;
+padding: 2px;
+text-align:right;
+}
+.row input {
+display: table-cell;
+padding: 2px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 18px; /* Place the button at the bottom of the page */
+  right: 26px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 13px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+p.legend{
+	width:460px;
+text-align: center;
+	display: block;
+	margin-left: auto;
+margin-right: auto; }
+hr.solid{
+border-top:3px solid black;
+opacity:0.3;}
+p.mid{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto}
+.footer {
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:white;
+	color:black;
+	text-align: center;}
